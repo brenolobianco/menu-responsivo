@@ -1,0 +1,36 @@
+.logo header a {
+    box-sizing: border-box;
+}
+.header-menu a{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: var(--font-text-1);
+line-height: 19px;
+
+}
+@media (min-width: 480px) {
+.container-menu a{    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #968f86;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.container-menu a:hover{  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #212529;
+
+}
+
+}

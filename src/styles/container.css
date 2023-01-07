@@ -1,0 +1,116 @@
+.container-header {
+  box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 320px;
+height: 80px;
+background: #FFFFFF;
+border-bottom: 2px solid #E9ECEF;
+}
+.btn-container {
+  height: 5px;
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+  width: 22px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.container-menu {
+  box-sizing: border-box;
+  display: none;
+  display: flex;
+  padding-top: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+ gap: 40px;
+  width: 320px;
+  height: 300px;
+  font-size: 0px;
+  flex-direction: column;
+  background: #ffffff;
+  border-bottom: 2px solid #efe9e9;
+}
+
+.show-menu {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+}
+
+header {
+  width: 320px;
+  height: 450px;
+ margin-left: 28px;
+ 
+}
+.container-footer {
+  display: none;
+  width: 320px;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 15px;
+  margin-left: 1px;
+}
+.show-footer {
+  display: flex;
+}
+
+.foto-usuario {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 5px;
+}
+@media (min-width: 480px) {
+  .container {
+    width: 100vw;
+    border-bottom: 1px solid;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E9ECEF;
+  }
+  .container-header {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  .container-menu {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 80px;
+    font-size: 16px;
+    margin-right: 400px;
+   
+  }
+  .btn-container {
+    display: none;
+  }
+  .container-footer {
+    height: 100%;
+    width: 600px;
+    margin-right: 70px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  
+  
+  }
+  .container-footer img {
+  margin-bottom: 12px;
+  
+  }
+}
